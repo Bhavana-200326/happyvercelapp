@@ -1,0 +1,175 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+            height: 100%;
+            width: 100%;
+            
+            
+        }
+        .h{
+            float: left;
+            font-size: 2vw;
+        }
+        .menu{
+            float: right;
+            word-spacing: 10vw;
+            padding-right: 20vw;
+            padding-top: 1vw;
+        }
+        pre{
+            font-size: 5vw;
+            text-align: center;
+            
+            
+        }
+        .stats {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 20px;
+}
+
+.stats div {
+    padding: 0px;
+    margin: 0px;
+    font-size: 1.2rem;
+}
+
+.stats strong {
+    padding: 0px;
+    margin: 0px;
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+        
+
+    </style>
+</head>
+<body>
+    <link rel="stylesheet" href="{% static 'home.css' %}">
+    <nav class="navbar">
+        <div class="h"> 🦁 Bunny Coding School</div>
+        <div class="menu">
+           <a href="home">Home</a>
+           <a href="courses">Courses</a>
+           <a href="bootcamp">Bootcamp</a>
+        </div>
+    </nav>
+    <center>
+        <pre><p style="padding-left: 10px;padding-right: 500px;"> 
+            we only <span style="color: aquamarine;">teach</span> 
+         what we are really
+          really good at.</pre></p>
+    </center>
+    <br>
+        <center>
+            <div class="courses">
+                <input type="button" value="Chech Courses-Make an Impact" style="background-color: aquamarine;width: 300px;height: 50px;border-radius: 7px;">
+            </div>
+        </center>
+
+               <section class="stats">
+                <div>
+                    <strong>25k+</strong><br>Students taught
+                </div>
+                <div>
+                    <strong>20+</strong><br>Instructors
+                </div>
+                <div>
+                    <strong>431K+</strong><br>Youtube Subs.
+                </div>
+            </section>
+            <br><br><br><br>
+            <center><pre><p style="padding-left:10px;padding-right: 300px;font-size: 40px;">
+            we do whatever we takes to
+            help you understand the concepts
+            </p></pre></center>
+
+        <br><br>
+            <center>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/60SRAWmMXyc?si=IAKA2ilBqWzmfK6N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </center><br>  
+                <center>
+                <input type="button" value="Explore free learning" style="background-color: aquamarine;height: 8vh;width: 30vw;border-radius: 5vw;font-size: 2vw;">
+                </center>
+
+                <h1 class="offer"> courses offered</h1>
+                
+                <br><br>
+    <div style="background-color: black ;height: 51vh; right: 5vw; border-radius: 2vw;width: 30vw; float: left;">
+        <img src="../static/web dev img.jpg" alt="" style="height: 40vh;width: 30vw;border-radius: 1vw;">
+        <h1 style="color: white;">web Development</h1>
+    </div>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+    <div style="background-color: black ;height: 51vh; right: 5vw; border-radius: 2vw;width: 30vw;float: left;">
+        <img src="../static/java img.jpg" alt="" style="height: 40vh;width: 30vw;border-radius: 1vw;">
+        <h1 style="color: white;">Java Programming</h1>
+    </div>
+    <div style="background-color: black ;height: 51vh; right: 5vw; border-radius: 2vw;width: 30vw; float: left;">
+        <img src="../static/python img.jpg" alt="" style="height: 40vh;width: 30vw;border-radius: 1vw;">
+        <h1 style="color: white;">Python Programming</h1>
+    </div>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+    <div>
+        <input type="button" value="view Details" style="height: 4vw; width: 30vw;background-color: aquamarine;font-size: 3vw;border-radius: 2vw;">
+        <input type="button" value="view Details" style="height: 4vw; width: 30vw;background-color: aquamarine;font-size: 3vw;border-radius: 2vw;">
+        <input type="button" value="view Details" style="height: 4vw; width: 30vw;background-color: aquamarine;font-size: 3vw;border-radius: 2vw;">
+
+    </div>
+    <div style="background-color: black ;height: 51vh; right: 5vw; border-radius: 2vw;width: 30vw;float: left;">
+        <img src="../static/django img.jpg" alt="" style="height: 40vh;width: 30vw;border-radius: 1vw;">
+        <h1 style="color: white;">Django Framework</h1>
+    </div>
+    <div style="background-color: black ;height: 51vh; right: 5vw; border-radius: 2vw;width: 30vw; float: left;">
+        <img src="../static/devops img.jpg" alt="" style="height: 40vh;width: 30vw;border-radius: 1vw;">
+        <h1 style="color: white;">Devops</h1>
+    </div>&ensp;&ensp;&ensp;&ensp;&ensp;
+    <div style="background-color: black ;height: 51vh; right: 5vw; border-radius: 2vw;width: 30vw;float: left;">
+        <img src="../static/ui image.jpg" alt="" style="height: 40vh;width: 30vw;border-radius: 1vw;">
+        <h1 style="color: white;">UI/uX Design</h1>
+    </div>
+    <div>
+        <input type="button" value="view Details" style="height: 4vw; width: 30vw;background-color: aquamarine;font-size: 3vw;border-radius: 2vw;">
+        <input type="button" value="view Details" style="height: 4vw; width: 30vw;background-color: aquamarine;font-size: 3vw;border-radius: 2vw;">
+        <input type="button" value="view Details" style="height: 4vw; width: 30vw;background-color: aquamarine;font-size: 3vw;border-radius: 2vw;">
+
+    </div>
+    <br><br><br><br>
+    <center>
+    <h1 style="color: white; font-size: 40px; font-family: initial;text-align: center;">
+        Top <span style="color: aquamarine;">companies</span> our Students <br>
+        working with</h1>
+   </center>
+   <center>
+    <img src="../static/netlink-removebg-preview.png" alt="" style="width: 90px; height: 90px;">&emsp;&emsp;&emsp;&emsp;&emsp;
+    <img src="../static/mindtree-removebg-preview.png" alt="" style="width: 110px; height: 110px;">&emsp;&emsp;&emsp;&emsp;&emsp;
+    <br><br><br>
+    <img src="../static/rapidops-removebg-preview.png" alt="" style="width: 90px; height: 90px;">&emsp;&emsp;&emsp;&emsp;
+    <img src="../static/tcs-removebg-preview.png" alt="" style="width: 90px; height: 90px;">&emsp;&emsp;&emsp;&emsp;
+    <img src="../static/amazon-removebg-preview.png" alt="" style="width: 60px; height: 60px;">&emsp;&emsp;&emsp;&emsp;
+    </center>
+    <br><br><br>
+    <center>
+        <input type="button" value="Explore Courses" style="height: 40px; width: 230px;text-align: center;background-color: aquamarine;border-radius: 10px; font-size: 20px;" >
+    </center>
+    <br><br><br><br>
+    <hr>
+    <br><br><br><br>
+
+    
+    
+        
+    
+    
+    
+</body>
+</html>

@@ -1,0 +1,101 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+            height: 100%;
+            width: 100%;
+            
+        }
+        .h{
+            float: left;
+            font-size: 2vw;
+        }
+        .menu{
+            float: right;
+            word-spacing: 10vw;
+            padding-right: 20vw;
+            padding-top: 1vw;
+        }
+        pre{
+            font-size: 5vw;
+            text-align: center;
+            padding-left: 0px;
+            
+            
+        }
+        .stats {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 20px;
+}
+
+.stats div {
+    padding: 0px;
+    margin: 0px;
+    font-size: 1.2rem;
+}
+
+.stats strong {
+    padding: 0px;
+    margin: 0px;
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+        
+
+    </style>
+</head>
+<body>
+    <link rel="stylesheet" href="{% static 'courses.css' %}">
+    <nav class="navbar">
+        <div class="h"> 🦁 Bunny Coding School</div>
+        <div class="menu">
+           <a href="home">Home</a>
+           <a href="courses">Courses</a>
+           <a href="bootcamp">Bootcamp</a>
+        </div>
+    </nav>
+    <center>
+        <p><pre style="float: left;"> 
+            6 month in 
+            house 
+            boot camp
+            Programming
+            only 10000*
+            <span style="background-color: aquamarine;">(80% off)</span>
+        </pre></p>
+            <br><br><br><br>
+
+                <br><br><br><br>
+            <div style="float: left;">
+                <img src="../static/bootcamp.png" alt="">
+            </div>
+       
+    
+    <div>
+        <input type="button" value="Home page" style="height: 4vw; width: 30vw;background-color: aquamarine;font-size: 3vw;border-radius: 2vw;">
+    </div>
+    
+    <br><br><br><br>
+    <hr>
+    <br><br><br><br>
+
+    
+    
+        
+    
+    
+    
+</body>
+</html>
